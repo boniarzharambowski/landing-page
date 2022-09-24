@@ -39,3 +39,27 @@ main h2{
   font-size: 16px;
   color: #545454;
 }
+
+.quote{
+  display: flex;
+  padding: 4em 13em;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.quote-author{
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+}

@@ -63,3 +63,46 @@ main h2{
   font-weight: 700;
   align-self: flex-end;
 }
+
+.call-action{
+  display: flex;
+  padding: 4em 13em;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 1em 10em;
+  width: 100%;
+}
+
+.signup-header{
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.signup-p{
+  margin-top: 2px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.signup-button{
+  background-color: #3882f6;
+  font-size: 18px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  border-radius: 4px;
+  padding: 0.25em 1em;
+  cursor: pointer;
+}
+
+
+

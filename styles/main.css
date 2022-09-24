@@ -104,5 +104,12 @@ main h2{
   cursor: pointer;
 }
 
+footer{
+  background-color: #1f2937;
+  padding: 1em;
+  color: #e5e7eb;
+  font-size: 12px;
+  text-align: center;
+}
 
 

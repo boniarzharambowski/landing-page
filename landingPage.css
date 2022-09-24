@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  font-family: roboto, arial;
+}
+
+.main-page{
+  background-color: #1f2937;
+  padding: 1em 13em;
+}
+
+.hero{
+  padding: 7em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-header-text{
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-paragraph-text{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up-btn{
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 7px 1em;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-right{
+  flex-shrink: 0;
+  width: 50%;
+}
+.hero-img{
+  background-color: #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 215px;
+}
+
+
+

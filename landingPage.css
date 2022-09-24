@@ -1,8 +1,12 @@
+
+/* GENERAL */
 body{
   margin: 0;
   font-family: roboto, arial;
 }
 
+
+/* HEADER MAIN */
 .main-page{
   background-color: #1f2937;
   padding: 1em 13em;
@@ -57,5 +61,26 @@ body{
   height: 215px;
 }
 
+/* HEADER NAVBAR */
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo{
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-buttons{
+  list-style-type: none;
+  display: flex;
+  color: #e5e7eb;
+  font-size: 18px;
+  gap: 1.5em;
+  cursor: pointer;
+}
 
 
